@@ -1,0 +1,99 @@
+html {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #2b2d42;
+    color: white;
+    
+}
+
+.container {
+    padding: 30px;
+}
+
+.header{
+    background-color: #4a4e69;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0 ;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.button-wrapper {
+    background-color: #22223b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#car-btn,
+#lawn-btn,
+#weeds-btn {
+    font-family: 'Comfortaa', cursive;
+    background-color: #cce3de;
+    padding: 8px 8px;
+    border-radius: 5px;
+}
+
+.mid-section {
+    background-color: #22223b;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul,
+li {
+    font-size: 1.25rem;
+    font-weight: bold;
+    list-style: none;
+    padding: 0;
+    line-height: 35px;
+}
+
+.footer {
+    padding: 10px;
+    background-color: #22223b;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#total-amount {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+.btn-container {
+    padding: 30px 5px;
+    background-color: #22223b;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+#invoice-btn {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a4e69;
+    padding: 5px 100px;
+    color: white; 
+}
+
+#invoice-btn:hover {
+    background-color: white;
+    color:#4a4e69;
+}
